@@ -61,7 +61,8 @@
 }
 
 .email_container>a {
-    font-size: var(--smaller-font);
+    /* font-size: var(--smaller-font); */
+    font-size: .9rem;
     letter-spacing: 1.3px;
     writing-mode: vertical-rl;
     color: var(--text-light);
@@ -219,6 +220,7 @@
     font-size: var(--small-font);
     letter-spacing: 1.5px;
     margin-bottom: 20px;
+    margin-top: 0.5rem;
 }
 
 .home_container>h3+h1 {
@@ -574,19 +576,20 @@
 }
 
 .skills-card {
-    padding: 5px;
-    border: 2px solid var(--first-color);
+    /* padding: 5px; */
+    /* border: 2px solid var(--first-color); */
     border-radius: 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    transition: ease-in-out 0.25s;
+    transition:transform .2s;
 }
 
 .skills-card:hover {
     background: rgb(100, 255, 218, 0.05);
-    transform: translate(-2px, -5px);
+    /* transform: translate(-2px, -5px); */
+    transform: scale(1.5);
 }
 
 .skills-card:hover span {
@@ -594,8 +597,8 @@
 }
 
 .skills-card>img {
-    width: 50%;
-    height: 50%;
+    width: 40%;
+    height: 40%;
 }
 
 .skills-card>span {
@@ -646,6 +649,14 @@
 
 } 
 
+.carousel-control-next-icon {
+    background-image: url("https://icons.veryicon.com/png/o/miscellaneous/test-2/next-28.png");
+}
+
+
+.carousel-control-prev-icon {
+    background-image: url("https://icons.veryicon.com/png/o/miscellaneous/test-2/prev.png");
+}
 /*! -------------|Contact|----------- */
 #contact {
     height: 100vh;
