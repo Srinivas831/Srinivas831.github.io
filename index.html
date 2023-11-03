@@ -50,10 +50,22 @@
                     <li class="nav-link projects" id="nav-link">04. <a href="#projects">Project</a> </li>
                     <li class="nav-link contact" id="nav-link">05. <a href="#contact">Contact</a> </li>
                 </ul>
-                <button id="resume-button-1" class="resume_link_resume shine"><a
+                <!-- <button id="resume-button-1" class="resume_link_resume shine"><a
                         href="./assets/pdf/Srinivasan H-resume.pdf" class="nav-link resume"
                         target="_blank"  
-                        id="resume-link-1" download="Srinivasan H-Resume.pdf">RESUME</a></button>
+                        id="resume-link-1" download="Srinivasan H-Resume.pdf">RESUME</a></button> -->
+
+                        <a
+                    href="./assets/pdf/Srinivasan H-resume.pdf"
+                    rel="noreferrer"
+                    class="nav-link resume"
+                    id="resume-link-1"
+                    download
+                  >
+                    <button id="resume-button-1">
+                      <i class= "fa fa-download"  id='download'></i>
+                    RESUME
+                    </button></a>
             </div>
         </div>
     </section>
@@ -163,10 +175,15 @@
                             <span class="stats_title">Projects</span>
                         </div>
                     </div>
-                    <button id="resume-button-2" class="shine2" data-aos="zoom-in-down">
+                    <!-- <button id="resume-button-2" class="shine2" data-aos="zoom-in-down">
                         <a download="" href="./assets/pdf/Srinivasan H-resume.pdf"
                             id="resume-link-2">Download CV<i class="fa-solid fa-download"></i></a>
-                    </button>
+                    </button> -->
+                    <div class="button">
+                        <a href="./assets/pdf/Srinivasan H-resume.pdf" id="resume-link-2" rel="noreferrer" download>
+                            <button class="resume-button" id="resume-button-2"><i class= "fa fa-download" id="icon" fill="white"></i> Resume</button>
+                        </a>
+                    </div>
                 </div>
                 <div class="about_right" data-aos="zoom-in-left">
                     <div class="about_img_container" class="home-img">
@@ -640,11 +657,11 @@
                     </div>
                     <div class="carousel-item">
                         <img src="https://github-readme-stats.vercel.app/api?username=Srinivas831&theme=prussian&hide_border=false&include_all_commits=false&count_private=false"
-                            id="github-top-langs" class="d-block w-100" alt="...">
+                        id="github-stats-card" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
                         <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Srinivas831&theme=prussian&hide_border=false&include_all_commits=false&count_private=false&layout=compact"
-                            id="github-stats-card" class="d-block w-100" alt="...">
+                        id="github-top-langs" class="d-block w-100" alt="...">
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
